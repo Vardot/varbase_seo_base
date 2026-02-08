@@ -46,16 +46,6 @@ config:
     yoast_seo: '*'
     script_manager: '*'
     entity_clone: '*'
-    varbase_seo_base:
-      - metatag.metatag_defaults.403
-      - metatag.metatag_defaults.404
-      - metatag.metatag_defaults.front
-      - metatag.metatag_defaults.global
-      - metatag.metatag_defaults.node
-      - metatag.metatag_defaults.taxonomy_term
-      - metatag.metatag_defaults.user
-      - field.storage.node.field_meta_tags
-      - field.storage.node.field_yoast_seo
   actions:
     pathauto.settings:
       simple_config_update:
@@ -113,27 +103,6 @@ config:
           - node
           - taxonomy_term
           - menu_link_content
-    user.role.editor:
+    user.role.content_editor:
       grantPermissions:
         - 'use yoast seo'
-    user.role.seo_admin:
-      grantPermissions:
-        - 'administer redirect settings'
-        - 'administer redirects'
-        - 'administer scripts'
-        - 'administer meta tags'
-        - 'use yoast seo'
-        - 'administer sitemap settings'
-        - 'clone script entity'
-    user.role.content_admin:
-      grantPermissions:
-        - 'use yoast seo'
-    user.role.site_admin:
-      grantPermissions:
-        - 'administer redirect settings'
-        - 'administer redirects'
-        - 'administer scripts'
-        - 'administer meta tags'
-        - 'use yoast seo'
-        - 'administer sitemap settings'
-        - 'clone script entity'
