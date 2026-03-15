@@ -105,4 +105,17 @@ config:
           - menu_link_content
     user.role.content_editor:
       grantPermissions:
+        - 'administer redirects'
+        - 'use yoast seo'
+    user.role.content_admin:
+      grantPermissions:
+        - 'administer redirects'
+        - 'use yoast seo'
+    user.role.seo_admin:
+      grantPermissions:
+        - 'administer redirects'
+        - 'use yoast seo'
+    user.role.site_admin:
+      grantPermissions:
+        - 'administer redirects'
         - 'use yoast seo'
