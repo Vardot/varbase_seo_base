@@ -22,7 +22,6 @@ install:
   - schema_web_site
   - simple_sitemap
   - yoast_seo
-  - script_manager
   - entity_clone
 config:
   import:
@@ -44,7 +43,6 @@ config:
     schema_web_site: '*'
     simple_sitemap: '*'
     yoast_seo: '*'
-    script_manager: '*'
     entity_clone: '*'
   actions:
     pathauto.settings:

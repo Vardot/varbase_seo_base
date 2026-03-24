@@ -25,7 +25,6 @@
     "drupal/yoast_seo": "~2",
     "drupal/redirect": "~1",
     "drupal/simple_sitemap": "~4",
-    "drupal/script_manager": "~2",
     "drupal/entity_clone": "~2"
   },
   "version": "1.0.x-dev"
