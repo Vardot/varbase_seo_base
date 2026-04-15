@@ -101,6 +101,10 @@ config:
           - node
           - taxonomy_term
           - menu_link_content
+    easy_breadcrumb.settings:
+      simpleConfigUpdate:
+        # Hide the current page as a segment in the breadcrumb.
+        include_title_segment: false
     user.role.content_editor:
       grantPermissions:
         - 'administer redirects'
