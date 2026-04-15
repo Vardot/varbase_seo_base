@@ -23,6 +23,7 @@ install:
   - simple_sitemap
   - yoast_seo
   - entity_clone
+  - easy_breadcrumb
 config:
   import:
     metatag_facebook: '*'
@@ -44,6 +45,7 @@ config:
     simple_sitemap: '*'
     yoast_seo: '*'
     entity_clone: '*'
+    easy_breadcrumb: '*'
   actions:
     pathauto.settings:
       simple_config_update:
