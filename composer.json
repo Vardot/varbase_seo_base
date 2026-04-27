@@ -27,5 +27,5 @@
     "drupal/simple_sitemap": "~4",
     "drupal/entity_clone": "~2"
   },
-  "version": "1.0.x-dev"
+  "version": "1.0.0-alpha1"
 }
