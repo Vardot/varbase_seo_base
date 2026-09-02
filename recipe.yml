@@ -11,6 +11,7 @@ install:
   - metatag_open_graph
   - metatag_twitter_cards
   - metatag_verification
+  - metatag_views
   - pathauto
   - redirect
   - redirect_404
