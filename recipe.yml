@@ -120,6 +120,8 @@ config:
       grantPermissions:
         - 'administer redirects'
         - 'use yoast seo'
+        - 'administer meta tags'
+        - 'administer sitemap settings'
     user.role.site_admin:
       grantPermissions:
         - 'administer redirects'
