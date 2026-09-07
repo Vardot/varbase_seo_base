@@ -24,8 +24,7 @@
     "drupal/pathauto": "~1",
     "drupal/yoast_seo": "~2",
     "drupal/redirect": "~1",
-    "drupal/simple_sitemap": "~4",
-    "drupal/entity_clone": "~2"
+    "drupal/simple_sitemap": "~4"
   },
   "version": "1.0.x-dev"
 }

@@ -23,7 +23,6 @@ install:
   - schema_web_site
   - simple_sitemap
   - yoast_seo
-  - entity_clone
   - easy_breadcrumb
 config:
   import:
@@ -45,7 +44,6 @@ config:
     schema_web_site: '*'
     simple_sitemap: '*'
     yoast_seo: '*'
-    entity_clone: '*'
     easy_breadcrumb: '*'
   actions:
     pathauto.settings:
