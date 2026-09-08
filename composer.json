@@ -26,5 +26,5 @@
     "drupal/redirect": "~1",
     "drupal/simple_sitemap": "~4"
   },
-  "version": "1.0.x-dev"
+  "version": "1.0.1"
 }
