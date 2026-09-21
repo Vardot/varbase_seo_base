@@ -25,6 +25,7 @@ install:
   - yoast_seo
   - easy_breadcrumb
 config:
+  strict: false
   import:
     metatag_facebook: '*'
     metatag_google_plus: '*'
