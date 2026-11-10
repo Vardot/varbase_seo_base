@@ -99,10 +99,14 @@ config:
         default_variant: default
         custom_links_include_images: false
         excluded_languages: {}
+        # canvas_page is the Drupal Canvas page entity: most landing pages of
+        # a Varbase site are Canvas pages. simple_sitemap skips an entity type
+        # a site does not have, so listing it is safe without Canvas.
         enabled_entity_types:
           - node
           - taxonomy_term
           - menu_link_content
+          - canvas_page
     easy_breadcrumb.settings:
       simpleConfigUpdate:
         include_title_segment: false
