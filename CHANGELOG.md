@@ -7,6 +7,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.3] - 2026-11-14
+### Fixed
+- Add Drupal Canvas pages to `sitemap.xml`
+  ([#3636793](https://www.drupal.org/i/3636793)).
+### Changed
+- Update the version badge to `1.0.3` in `README.md`.
+
 ## [1.0.2] - 2026-09-21
 ### Fixed
 - Turn off strict config handling so the recipe applies on a site that already
@@ -52,7 +59,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - Initial release of the Varbase SEO Base recipe.
 
-[Unreleased]: https://git.drupalcode.org/project/varbase_seo_base/-/compare/1.0.2...1.0.x
+[Unreleased]: https://git.drupalcode.org/project/varbase_seo_base/-/compare/1.0.3...1.0.x
+[1.0.3]: https://git.drupalcode.org/project/varbase_seo_base/-/compare/1.0.2...1.0.3
 [1.0.2]: https://git.drupalcode.org/project/varbase_seo_base/-/compare/1.0.1...1.0.2
 [1.0.1]: https://git.drupalcode.org/project/varbase_seo_base/-/compare/1.0.0...1.0.1
 [1.0.0]: https://git.drupalcode.org/project/varbase_seo_base/-/compare/1.0.0-rc2...1.0.0
