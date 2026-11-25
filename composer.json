@@ -17,14 +17,14 @@
     "source": "http://cgit.drupalcode.org/varbase_seo_base"
   },
   "require": {
-    "drupal/core": "~11.4.0",
-    "drupal/metatag": "~2",
-    "drupal/eca_metatag": "~2",
-    "drupal/schema_metatag": "~3",
-    "drupal/pathauto": "~1",
-    "drupal/yoast_seo": "~2",
-    "drupal/redirect": "~1",
-    "drupal/simple_sitemap": "~4"
+    "drupal/core": "^11.4 || ^12.0",
+    "drupal/metatag": "^2",
+    "drupal/eca_metatag": "^2",
+    "drupal/schema_metatag": "^3",
+    "drupal/pathauto": "^1",
+    "drupal/yoast_seo": "^2",
+    "drupal/redirect": "^1",
+    "drupal/simple_sitemap": "^4"
   },
   "version": "1.0.x-dev"
 }
